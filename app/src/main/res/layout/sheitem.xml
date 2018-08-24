@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        app:roundAsCircle="true"
+        android:id="@+id/sheitem_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/sheitem_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
